@@ -1,0 +1,187 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #08192B;
+    color: #B780DF;
+}
+
+.Home > h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 650%;
+    letter-spacing: 1pt;
+}
+
+.Home > h3 {
+    letter-spacing: 3pt;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.Button {
+    padding: 10px 20px;
+    margin-top: 50px;
+    border: 1px solid #B780DF;
+    border-radius: 25px;
+    color: #B780DF;
+    transition: all 200ms ease;
+}
+
+.Arrow {
+    font-size: 0;
+    transition: all 200ms ease;
+}
+
+.Button:hover {
+    background-color: #DFAFC7;
+    color: #08192B;
+}
+
+.Button:hover .Arrow {
+    font-size: medium;
+}
+
+.Logo {
+    height: 65px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    opacity: 1;
+    transition: all 500px ease-out;
+}
+
+.Logo:hover {
+    opacity: 0.6;
+}
+
+.About {
+    background-image: linear-gradient(#DFAFC7, #B780DF, #925CE1);
+    color: #08192B;
+    text-align: center;
+}
+
+.Headers {  
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.About > p {
+    font-size: 110%;
+    padding: 0 13vw;
+    padding-bottom: 40px;
+    line-height: 150%;
+}
+
+.CardBox {
+    display: flex;
+    flex-direction: column;
+    margin: 0 18vw;
+}
+
+.Card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    padding: 30px 50px;
+    border: 1.3px solid #091d33;
+    border-radius: 25px;
+}
+
+.Card > img {
+    width: 80px;
+}
+
+.Card-content {
+    color: #54229e;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.Card-content > span {
+    color: #08192B;
+}
+
+.Developer {
+    background-color: #08192B;
+    color: #B780DF;
+    padding: 0 15vw;
+    padding-bottom: 10px;
+}
+
+.Developer a {
+    color: #54229e;
+    transition: all 300ms ease-in;
+}
+
+.Developer a:hover {
+    color: #DFAFC7;
+}
+
+.Colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 17vw;
+    margin: 5px 0;
+}
+
+.Color {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 0.2px solid #DFAFC7;
+}
+
+.Contact {
+    background-color: #08192B;
+    color: #B780DF;
+    padding-bottom: 15px;
+}
+
+.Contact-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 10vw;
+}
+
+.Contact-card {
+    width: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+.Contact-photo {
+    width: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.Contact-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Contact-media > a {
+    color: #B780DF;
+    font-size: 120%;
+    transition: all 200ms ease-in;
+}
+
+.Contact-media > a:hover {
+    color: #DFAFC7;
+}
+
+footer {
+    background-image: linear-gradient(to right, #925CE1, #B780DF, #B780DF, #925CE1);
+    color: #08192B;
+    font-size: small;
+    text-align: center;
+}
