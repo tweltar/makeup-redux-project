@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #08192B;
+    color: #B780DF;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+}
+
+.Header > h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 300%;
+}
+
+.Header > h3 {
+    font-weight: 100;
+    font-size: 100%;
+}
