@@ -1,0 +1,54 @@
+.ManualSelector {
+    position: relative;
+    display: inline-block;
+}
+
+.ByButton {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #B780DF;
+    color: #B780DF;
+    width: 130px;
+    margin-right: 20px;
+    transition: all 200ms ease-in;
+}
+
+.SelectorContent {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 31px;
+    z-index: 1;
+    width: 120px;
+    background-color: #08192B;
+}
+
+.SelectorContent > a {
+    padding: 10px 20px;
+    color: #B780DF;
+    display: flex;
+    transition: all 200ms ease-in;
+}
+
+.ManualSelector:hover .ByButton{
+    background-color: #B780DF;
+    color: #08192B;
+}
+
+.ManualSelector:hover .SelectorContent {
+    display: flex;
+}
+
+.SelectorContent > a:hover {
+    color: #08192B;
+    background-color: #B780DF;
+}
+
+.RightArrow {
+    font-size: medium;
+    transition: all 200ms ease-in;
+}
+
+.ManualSelector:hover .RightArrow {
+    transform: rotate(90deg);
+}
