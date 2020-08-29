@@ -1,0 +1,45 @@
+.ByProduct {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    background-color: #08192B;
+    color: #B780DF;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #DFAFC7;
+}
+
+.ProductNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 17vw;
+    padding: 10px 40px;
+}
+
+.ProductNav > img {
+    width: 45px;
+}
+
+.ProductNav > p {
+    font-size: 110%;
+}
+
+.NavArrow {
+    font-size: small;
+    margin-top: 2px;
+    opacity: 0;
+    transition: all 200ms ease-in;
+}
+
+.ProductNav:hover {
+    color: #DFAFC7;
+}
+
+.ProductNav:hover .NavArrow {
+    opacity: 1;
+}
