@@ -10,7 +10,7 @@ const ManualSelector = () => {
                 <a>By Brand</a>
             </div>
         </div>
-);
+    );
 };
 
 export default ManualSelector;

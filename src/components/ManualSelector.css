@@ -5,7 +5,8 @@
 
 .ByButton {
     padding: 10px 20px;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     border: 1px solid #B780DF;
     color: #B780DF;
     width: 130px;
@@ -20,19 +21,23 @@
     top: 31px;
     z-index: 1;
     width: 120px;
-    background-color: #08192B;
 }
 
 .SelectorContent > a {
     padding: 10px 20px;
     color: #B780DF;
+    background-color: #08192B;
     display: flex;
+    border-left: 1px solid #B780DF;
+    border-right: 1px solid #B780DF;
+    border-bottom: 1px solid #B780DF;
+    border-bottom-right-radius: 20px;
     transition: all 200ms ease-in;
 }
 
 .ManualSelector:hover .ByButton{
-    background-color: #B780DF;
-    color: #08192B;
+    color: #DFAFC7;
+    border-color: #DFAFC7;
 }
 
 .ManualSelector:hover .SelectorContent {
@@ -40,8 +45,8 @@
 }
 
 .SelectorContent > a:hover {
-    color: #08192B;
-    background-color: #B780DF;
+    color: #DFAFC7;
+    border-color: #DFAFC7;
 }
 
 .RightArrow {

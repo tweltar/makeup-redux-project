@@ -6,6 +6,7 @@ import eyeshadow from "../images/eye-shadows-bnw.png";
 import ttb from "../images/ttb.jpg";
 import ytuse from "../images/ytuse.png";
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
     return (
@@ -13,7 +14,7 @@ const HomePage = () => {
             <section className="Home">
                 <h1>Prettify</h1>
                 <h3>MAKEUP INFORMATION</h3>
-                <a href="" className="Button">Getting Started <span className="Arrow">&#187;</span></a>
+                <Link to="/search" className="Button">Getting Started <span className="Arrow">&#187;</span></Link>
             </section>
             <img className="Logo" src={makeup} alt="makeup" />
             <section className="About">
