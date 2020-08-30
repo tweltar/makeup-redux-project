@@ -3,15 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-// import { createStore } from 'redux';
-// import { Provider } from 'react-redux';
+import { createStore, applyMiddleware, compose } from 'redux';
+import { Provider } from 'react-redux';
+import allReducers from './reducers';
+import thunk from 'redux-thunk';
+import Axios from 'axios';
 
-// const store = createStore();
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store = createStore(allReducers, composeEnhancers(applyMiddleware(thunk)) );
+
+Axios.defaults.baseURL=process.env.REACT_APP_END_POINT;
 
 ReactDOM.render(
-  // <Provider store={store}>
+  <Provider store={store}>
     <App />,
-  // </Provider>,
+  </Provider>,
   document.getElementById('root')
 );
 

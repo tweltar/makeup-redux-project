@@ -8,11 +8,11 @@ import fetchProducts from '../actions/fetchProducts';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-const Products = ({ pending, products, fetchProducts }) => {
+const Products = ({ product, pending, products, fetchProducts }) => {
 
     useEffect(() => {
-        fetchProducts("blush");
-    }, [fetchProducts]);
+        fetchProducts(product);
+    }, []);
 
     return (
         <div className="Products">

@@ -19,6 +19,8 @@ nav {
     align-items: center;
     width: 17vw;
     padding: 10px 40px;
+    color: #B780DF;
+    font-size: 95%;
 }
 
 .ProductNav > img {
