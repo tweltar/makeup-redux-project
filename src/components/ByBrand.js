@@ -3,7 +3,6 @@ import './ByBrand.css';
 import Header from './Header';
 import Products from './Products';
 import Footer from './Footer';
-import { useEffect } from 'react';
 import { brands } from "../utils";
 
 const ByBrand = () => {

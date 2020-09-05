@@ -1,7 +1,7 @@
 import React from 'react';
 import './ManualSelector.css';
 
-const ManualSelector = ({byType}) => {
+const ManualSelector = () => {
     return (
         <div className="ManualSelector">
             <a href="" className="ByButton">By Product&nbsp;&nbsp;<i className="fas fa-angle-right RightArrow"></i></a>

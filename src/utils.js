@@ -4,7 +4,8 @@ export const brands = [
 
 export const products = [
     {
-        name: "blush",
+        name: "Blush",
+        image: "https://iili.io/29ex19.th.png",
         category: [
             "powder", "cream"
         ],
@@ -13,14 +14,16 @@ export const products = [
         ]
     },
     {
-        name: "blush",
+        name: "Bronzer",
+        image: "https://iili.io/29eu5b.th.png",
         category: ["powder"],
         tag: [
             "gluten free", "canadian", "natural", "organic", "vegan", "purpicks", "ewg verified"
         ]
     }, 
     {
-        name: "eyebrow",
+        name: "Eyebrow",
+        image: "https://iili.io/29e7zQ.th.png",
         category: ["pencil"],
         tag: [
             "purpicks", 
@@ -28,7 +31,8 @@ export const products = [
         ]
     }, 
     {
-        name: "eyeliner",
+        name: "Eyeliner",
+        image: "https://iili.io/29eYXV.th.png",
         category: [
             "liquid", "pencil", "gel", "cream"
         ],
@@ -37,7 +41,8 @@ export const products = [
         ]
     }, 
     {
-        name: "eyeshadow",
+        name: "Eyeshadow",
+        image: "https://iili.io/29e011.th.png",
         category: [
             "palette", "pencil", "cream", ""
         ],
@@ -46,7 +51,8 @@ export const products = [
         ]
     }, 
     {
-        name: "foundation",
+        name: "Foundation",
+        image: "https://iili.io/29eGdg.th.png",
         category: [
             "concealer", "liquid", "contour", "bb cc", "cream", "mineral", "powder", "highlighter"
         ],
@@ -55,14 +61,16 @@ export const products = [
         ]
     }, 
     {
-        name: "lipliner",
+        name: "Lip Liner",
+        image: "https://iili.io/29eM7a.th.png",
         category: ["pencil"],
         tag: [
             "vegan", "gluten free", "canadian", "natural", "purpicks", "ewg verified", "hypoallergenic", "no talc", "cruelty free"
         ]
     }, 
     {
-        name: "lipstick",
+        name: "Lipstick",
+        image: "https://iili.io/29eWmv.th.png",
         category: [
             "lipstick", "lip gloss", "liquid", "lip stain"
         ],
@@ -71,14 +79,16 @@ export const products = [
         ]
     }, 
     {
-        name: "mascara",
+        name: "Mascara",
+        image: "https://iili.io/29ehIR.th.png",
         category: [""],
         tag: [
             "vegan", "gluten free", "canadian", "natural", "organic", "purpicks", "organic", "certclean", "ewg verified", "hypoallergenic", "no talc", "ecocert", "usda organic"
         ]
     }, 
     {
-        name: "nail_polish",
+        name: "Nail Polish",
+        image: "https://iili.io/29ekrX.th.png",
         category: [],
         tag: [
             "vegan", "canadian", "natural", "gluten free", "fair trade", "sugar free", "non-gmo", "dairy free"
@@ -93,12 +103,12 @@ export const countStars = rating => {
     var i = 0;
 
     while (i < numFullStars) {
-        stars += `<i className="fas fa-star"></i>`;
+        stars += `<i class="fas fa-star"></i>`;
         i++;
     }
 
     if(hasHalfStar) {
-        stars += `<i className="fas fa-star-half-alt"></i>`;
+        stars += `<i class="fas fa-star-half-alt"></i>`;
     };
 
     stars += `<p>${rating}</p>`;

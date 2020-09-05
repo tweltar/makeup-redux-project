@@ -11,7 +11,7 @@ const Header = () => {
                 <h3>MAKEUP INFORMATION</h3>
             </div>
             <div>
-                <Link to="/home" className="BackToHome" title="Home"><i class="fas fa-home"></i></Link>
+                <Link to="/home" className="BackToHome" title="Home"><i className="fas fa-home"></i></Link>
                 <ManualSelector />
             </div>
         </header>

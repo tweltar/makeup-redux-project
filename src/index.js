@@ -17,7 +17,7 @@ Axios.defaults.baseURL=process.env.REACT_APP_END_POINT;
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />,
+    <App />
   </Provider>,
   document.getElementById('root')
 );
